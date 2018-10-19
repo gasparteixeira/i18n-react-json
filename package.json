@@ -1,0 +1,11 @@
+{
+  "name": "i18n-react-json",
+  "version": "1.0.0",
+  "description": "A simple translator for react loading languages from json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gaspar <gaspar.teixeira@gmail.com> (https://gasparteixeira.com)",
+  "license": "MIT"
+}
