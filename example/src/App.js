@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
-import i18n from "i18n-json-file";
+import i18n from "i18n-react-json";
+
+// set default language
+i18n.setLocale("en");
 
 class App extends Component {
   state = {
     locale: "en"
   };
-  componentWillMount() {
-    i18n.setLocale(this.state.locale);
-  }
 
+  // change method
   handleChange = event => {
     this.setState({ locale: event.target.value });
     i18n.setLocale(event.target.value);

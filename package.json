@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gaspar <gaspar.teixeira@gmail.com> (https://gasparteixeira.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "i18n-react",
+    "react",
+    "i18n",
+    "json",
+    "simple",
+    "translate"
+  ]
 }
