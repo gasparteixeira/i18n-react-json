@@ -1,6 +1,6 @@
 {
   "name": "i18n-react-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple translator for react loading languages from json file",
   "main": "index.js",
   "scripts": {

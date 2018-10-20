@@ -2,7 +2,7 @@
 
 ![i18n-react-json](https://user-images.githubusercontent.com/390818/47250702-4bae5f80-d3f4-11e8-8ce8-de33556b3a53.gif)
 
-A simple translator for react loading languages from json file.
+A simple translator for Reactjs load languages from json file.
 
 ## Install
 
@@ -31,7 +31,7 @@ Lets create your files respository "locales"
   |--src
 ```
 
-In the json file, for example potuguese:
+In the json file, for example portuguese:
 
 ```js
 // pt.json
