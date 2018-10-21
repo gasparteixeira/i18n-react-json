@@ -1,5 +1,7 @@
 # i18n-react-json
 
+[![Build Status](https://travis-ci.com/gasparteixeira/i18n-react-json.svg?branch=master)](https://travis-ci.com/gasparteixeira/i18n-react-json)
+
 ![i18n-react-json](https://user-images.githubusercontent.com/390818/47250702-4bae5f80-d3f4-11e8-8ce8-de33556b3a53.gif)
 
 A simple translator for Reactjs load languages from json file.
