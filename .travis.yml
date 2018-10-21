@@ -1,6 +1,10 @@
 language: node_js
 node_js:
-  - "beta"
+  - "node"
+before_script:
+  - npm install
+script:
+  - npm test --verbose
 cache:
   directories:
     - "node_modules"

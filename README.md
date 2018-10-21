@@ -20,18 +20,18 @@ $ npm i i18n-react-json
 
 ## Configuration
 
-Lets create your files respository "locales"
+Lets create your files respository, for example: "locales"
 
 ```
 |--project
-  |--locales
-    |-- en.json
-    |-- pt.json
   |--public
   |--src
+    |--locales
+      |-- en.json
+      |-- pt.json
 ```
 
-In the json file, for example portuguese:
+In the json file, for example:
 
 ```js
 // pt.json
@@ -47,8 +47,15 @@ In your App.js lets import and set the language.
 
 ```js
 //project/src/App.js
-import i18n from "i18n-react-json"
+import Translate from "i18n-react-json";
+import locales from "./locales";
+
+// call tranlation
+const i18n = new Translate(locales);
+
+//set default language
 i18n.setLocale("pt");
+
 class App extends Component {
 render() {
     return (

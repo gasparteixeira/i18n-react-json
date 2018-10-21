@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import i18n from "i18n-react-json";
+import Translate from "i18n-react-json";
+import locales from "./locales";
 
-// set default language
+// call tranlation
+const i18n = new Translate(locales);
+
+//set default language
 i18n.setLocale("en");
 
 class App extends Component {
