@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# covarage
+/covarage
+
 # misc
 .DS_Store
 .env.local
